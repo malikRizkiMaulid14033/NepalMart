@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+/* header */
+header{
+    background-color: rgb(253, 164, 10);
+    padding: 15px;
+}
+/* logo */
+header nav .toko img{
+    height: 35px;
+    width: 90px;
+    margin-left: 50px;
+    
+}
+/* logo dan navbar */
+header nav{
+    gap: 30px;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+/* semua navbar */
+header nav ul{
+    margin-right: 30px;
+    gap: 20px;
+    list-style: none;
+    display: flex;
+}
+/* link navbar */
+header nav ul  a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+header nav ul a.active,header nav ul a:hover{
+    color: green;
+}
+
+header nav ul  a::content{
+    color: green;
+}
+
+/* banner */
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
